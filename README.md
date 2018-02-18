@@ -7,11 +7,11 @@ VirtualDJ-XML-Viewer
 
 Virtual DJ で吐き出されたXMLを可視化するwebツール
 
-## Contribution
+## How to use
 
-1.Virtual DJで吐き出されたXMLファイル（database.xml）を/assets/xml/database.xml と入れ替える。
-2./assets と /index.html をサーバーにアップする。
-3./index.html を開く
+1.Virtual DJで吐き出されたXMLファイル（database.xml）を/assets/xml/database.xml と入れ替える。  
+2./assets と /index.html をサーバーにアップする。  
+3./index.html を開く . 
 
 ## Licence
 
