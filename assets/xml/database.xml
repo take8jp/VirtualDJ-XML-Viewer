@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VirtualDJ_Database Version="8.0.0">
+ <Song FilePath="FilePath" FileSize="FileSize">
+  <Tags Author="Author" Title="Title" Genre="Genre" Album="Album" TrackNumber="TrackNumber" Year="Year" Flag="Flag" Comment="test http://google.com"/>
+	 <Comment>[take8jp](https://github.com/take8jp)　[twitter:@take8_jp](https://twitter.com/take8_jp)</Comment>
+ </Song>
+</VirtualDJ_Database>

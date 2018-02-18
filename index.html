@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>VirtualDJ-XML-Viewer</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="apple-touch-icon" sizes="192x192" href="assets/img/touch-icon.png">
+	<link rel="shortcut icon" href="assets/img/touch-icon.png">
+	<link rel="icon" type="image/vnd.microsoft.icon" href="assets/img/favicon.ico">
+	<link rel="stylesheet" href="assets/css/default.css">
+	<link rel="stylesheet" href="assets/css/Loading.css">
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.livesearch.js"></script>
+	<script src="assets/js/default.js"></script>
+</head>
+<body>
+	<div id="loader-bg">
+		<div id="loader">
+			<img src="assets/css/images/loading.gif" alt="Now Loading..." />
+			<p>Now Loading...</p>
+		</div>
+	</div>
+	<div id="wrap">    
+		<div class="page-content header-wrapper">
+			<form>
+				<input type="text" name="q" value="" class="search" placeholder="Search">
+			</form>
+		</div>
+		<div id="contents">
+			<div class="center count"><span id="count"></span></div>
+			<ul id="result">
+					<!--ここにxmlが入る-->
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
